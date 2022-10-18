@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yield Curve</title>
+  <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <script src="app.js" defer ></script>
+</head>
+<body>
+<div class="app">
+
+    <header>US Treasuries Yield Curve</header>
+    <div class="yield-desc">
+        <div>The 2 year yield is <div class="dyn-item twoy"></div> while the 10 year yield is <div class="dyn-item teny"></div>  </div>
+        <div>This means the yield curve is <div class="dyn-item yield-status"></div> <img class="help-icon" src="images/icons8-help-24.png" alt="" title=></div>
+    </div>
+    <div class="chart-container">
+        <canvas id="yield-chart" style="height: 600px; width: 1200px"></canvas>
+    </div>
+    <footer>
+        <a href="https://github.com/MooseCapital?tab=repositories" target="_blank" rel="noopener noreferrer" class="github-icon"></a>
+        <p>MooseCapital</p>
+    </footer>
+</div>
+</body>
+</html>

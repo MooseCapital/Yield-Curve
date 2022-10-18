@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Rubik, serif ;
+    color: rgb(236, 239, 244);
+    --form-control-color: #81A1C1;
+    font-weight: 500;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #2e3440;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+::selection {
+    background-color: #88C0D0;
+}
+@font-face {
+    font-family: "Rubik";
+    src: url("Rubik-VariableFont_wght.ttf") format("woff2");
+}
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    background-color: #2e3440;
+    display: grid;
+    align-content: start;
+    justify-content: center;
+
+}
+header {
+font-size: 3rem;
+font-weight: 700;
+text-align: center;
+margin-top: 2rem;
+}
+
+.chart-container {
+    margin-top: 2rem;
+    border-radius: 5px;
+    height: 600px;
+    width: 1200px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    background-color: #2E3440;
+    /*box-shadow: 0.3px 0.5px 1.4px -1px rgba(0, 0, 0, 0.215), 2px 4px 11px -1px rgba(0, 0, 0, 0.43);*/
+    box-shadow:
+            2px 2px 10px rgba(0, 0, 0, 0.4);
+    justify-self: center;
+}
+#yield-chart {
+
+}
+
+.yield-desc {
+font-size: 24px;
+display: grid;
+justify-content: center;
+margin-top: 2rem;
+width: 800px;
+justify-self: center;
+}
+.yield-desc > div {
+color: #D8DEE9;
+/*display: grid;*/
+/*grid-auto-flow: column;*/
+justify-content: center;
+flex-wrap: wrap;
+display: flex;
+align-content: center;
+}
+.yield-desc > div > img {
+height: 24px;
+width: 24px;
+align-self: center;
+}
+.dyn-item {
+background-color: #434C5E;
+font-weight: 500;
+padding: 0px 4px;
+border-radius: 3px;
+margin: 0 6px;
+color: #D8DEE9;
+    /*box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4)*/
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    font-size: 18px;
+
+}
+.github-icon {
+background-image: url("images/GitHub-Mark-32px.png");
+height: 30px;
+width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 500ms;
+}
+.github-icon:hover {
+transform: rotate(360deg);
+}
+
+
+
+
+
